@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Exam Management System</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        
+        <a href="contact.html">Contact</a>
+        <a href="result.html">Result</a>
+        <a href="login.html">Login/Signup</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+  <style>
+    #container{
+        height: 500px;
+        width: 800px;
+        border: black;
+        border-radius: 3px;
+        box-shadow: grey;
+
+    }
+    
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .result {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    form [type="submit"]{
+        background-color: #f4f4f4;
+        background: green;
+        color: white;
+
+    }
+  </style>
+</head>
+<body>
+    <center>
+    <div id="container">
+
+  <div class="grade-sheet">
+    <h2>Student Grade Sheet sample:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mathematics</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>80</td>
+        </tr>
+        <!-- Add more subjects as needed -->
+      </tbody>
+    </table>
+
+    <div class="result">
+      <p>Total Score: 234</p>
+      <p>Average Score: 78</p>
+      <p>Grade: B+</p>
+      <form>
+    <input type="submit" name="Generate" value=" generate">
+</form>
+    </div>
+  </div>
+</div></center>
+<footer>
+        &copy; 2023 Exam Management System |Ankit Subedi|
+    </footer>
+
+</body>
+</html>
